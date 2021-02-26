@@ -1,0 +1,11 @@
+CREATE DATABASE meu_banco;
+
+USE meu_banco;
+CREATE TABLE tbusuario(
+	idusuario int AUTO_INCREMENT PRIMARY KEY,
+    nome varchar(30),
+    telefone varchar(15),
+    email varchar(40),
+    senha varchar(32)
+);
+ 
